@@ -1,7 +1,6 @@
 # TestAppliAR
 
-!!! info
-    Under development!!!
+### Under development!
 
 This file has all the ingredients to test the stuff from the course [BAWJ](https://www.appligate.nl/BAWJ/stable/), section3 - [Using Containers](https://www.appligate.nl/BAWJ/stable/chapter13/). It contains:
 - src/main.jl
@@ -16,8 +15,8 @@ This file has all the ingredients to test the stuff from the course [BAWJ](https
 ### Installation
 The best is to use the IJulia notebooks, steps:
 1. Clone this project: `git clone https://github.com/rbontekoe/TestAppliAR.git`
-2. Start Julia and Add IJulia: using Pkg; Pkg.add("IJulia");
-3. Enable local environment: Pkg.activate(".")
+2. julia> using Pkg; Pkg.add("IJulia");
+3. julia> Pkg.activate(".")
 4. julia> using IJulia
 5. julia> notebook(dir=".", detached=true)
 6. Open and run code: ar.ipynb
