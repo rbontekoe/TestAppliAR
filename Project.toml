@@ -1,0 +1,10 @@
+[deps]
+AppliAR = "7e9bfa83-97d7-407e-9b29-58f52238cdb7"
+AppliGeneralLedger = "69311175-8ceb-4e66-8d4a-fec439d19437"
+AppliSales = "c1345d04-1a7a-4e7a-b935-9916dcf58fca"
+Bukdu = "3e78a19a-cc83-51d8-955b-515f39fd7955"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Mux = "a975b10e-0019-58db-a62f-e48ff68538c9"
+Observables = "510215fc-4207-5dde-b226-833fc4488ee2"
+Query = "1a8c2f83-1ff3-5112-b086-8aa67b057ba1"
+Rocket = "df971d30-c9d6-4b37-b8ff-e965b2cb3a40"
