@@ -120,7 +120,7 @@ sum_debit = sum(debit)
 sum_credit = sum(credit)
 balance = sum_credit - sum_debit
 balance = balance >= 0 ? balance : -balance
-result = result * "<tr><td></td><td></td><td></td><td>$sum_debit</td><td>$sum_credit</td><td></td></tr></table><p>Balance: $balance"
+result = result * "<tr><td></td><td></td><td></td><td style='text-align: right'>$sum_debit</td><td style='text-align: right'>$sum_credit</td><td></td></tr></table><p>Balance: $balance"
     render(HTML, template("$(result)"))
 end
 
