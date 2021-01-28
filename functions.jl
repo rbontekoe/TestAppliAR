@@ -130,3 +130,9 @@ function test(c::WebController)
   @info("C: $(c.params.v)")
   render(HTML, template("<h2>Een test</h2><p>Request: $(c.conn.request)</p><p>Headers: $(c.conn.request.headers)</p><p>Parameters: $(c.params.v)</p>"))
 end
+
+function favicon(c::WebController)
+    A = Char.(read("favicon.ico"))
+    y = reduce( (x, y) -> x * y, A)
+    render(HTML, y)
+end
