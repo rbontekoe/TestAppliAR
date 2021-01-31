@@ -63,7 +63,7 @@ function index(c::WebController)
     <h2>Hello World!</h2>
     <p>This is the example from the course <a href='https://www.appligate.nl/BAWJ/stable/'>BAWJ</a>. In chapter 13 the student
     learns to create two Docker containers. The containers are used in this website.</p>
-    <p>The website can also started from a <a href='https://github.com/rbontekoe/AppliAR.jl/blob/master/website.ipynb'>IJulia Notebook</a>. This gives the user more opportunities to experiment.<p>
+    <p>The website can also started from a <a href='https://github.com/rbontekoe/TestAppliAR/blob/master/website.ipynb'>IJulia Notebook</a>. This gives the user more opportunities to experiment.<p>
     """))
 end
 
