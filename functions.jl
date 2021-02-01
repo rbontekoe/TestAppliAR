@@ -26,7 +26,7 @@ function template(t::String)
         <body>
             <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">AppliGate</a>
+            <a class="navbar-brand" href="#"><img src="/logo.png" width="50"/> AppliGate</a>
     
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
